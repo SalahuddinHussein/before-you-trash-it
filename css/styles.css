@@ -1,0 +1,36 @@
+body{
+  background: #efefef;
+  color: #333333;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}
+
+header{
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  background-color: #cccccc;
+}
+
+main{
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  background-color: #cccccc;
+}
+
+.map{
+  padding: 20px 0 50px 0;
+}
+
+#map{
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  height: 400px;
+}
+
+footer{
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  font-size: 10px;
+  background-color: #999999;
+}
