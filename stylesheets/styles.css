@@ -1,30 +1,57 @@
-/* line 1, ../sass/styles.scss */
+/* line 6, ../sass/styles.scss */
 body {
+  font-family: helvetica, arial, sans-serif;
   background: #efefef;
   color: #333333;
-  font-size: 12px;
-}
-
-/* line 7, ../sass/styles.scss */
-header {
-  max-width: 1000px;
-  margin: 0 auto 0 auto;
-  background-color: #cccccc;
+  font-size: 14px;
 }
 
 /* line 13, ../sass/styles.scss */
-main {
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 16, ../sass/styles.scss */
+a:hover {
+  color: #000000;
+}
+
+/* line 21, ../sass/styles.scss */
+header, main, footer {
+  padding: 10px 30px 10px 30px;
+  margin: 10px auto 10px auto;
   max-width: 1000px;
-  margin: 0 auto 0 auto;
   background-color: #cccccc;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
+header a {
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* line 36, ../sass/styles.scss */
+.item-buttons label {
+  background: #999999;
+  color: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+}
+/* line 43, ../sass/styles.scss */
+.item-buttons label.checked {
+  color: #999999;
+  background: #ffffff;
+}
+
+/* line 49, ../sass/styles.scss */
 .map {
   padding: 20px 0 50px 0;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 #map {
   display: block;
   margin: 0 auto 0 auto;
@@ -32,14 +59,8 @@ main {
   height: 400px;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 footer {
-  max-width: 1000px;
-  margin: 0 auto 0 auto;
-  font-size: 10px;
+  font-size: 12px;
   background-color: #999999;
-}
-/* line 35, ../sass/styles.scss */
-footer p {
-  padding: 15px;
 }

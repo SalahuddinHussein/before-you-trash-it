@@ -56,7 +56,7 @@ $(document).ready(function(){
   //~ Right now it is doing all of the work with each time you check or uncheck; maybe it should only do the work on pressing a Submit button. - MC 12.5.2015
 
   var check_products = $('input[type=checkbox]').on('click', function(e){
-
+    $(e.currentTarget).parent().toggleClass('checked');
     //~ Add or remove from the array of what you have.
     if(this.checked == true){
       i_have.push(this.value);
